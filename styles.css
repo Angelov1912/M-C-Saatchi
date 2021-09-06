@@ -1,0 +1,245 @@
+body {
+    position: relative;
+    width: 1440px;
+    height: 1599px;
+    background: #FFFFFF;
+    }
+
+header {
+    position: absolute;
+    width: 1440px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+}
+
+.nav-menu .burger {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1270px;
+    top: 20px;
+}
+
+/* Style the separate lines of the burger menu*/
+.line1 {
+    position: absolute;
+    left: 10.71%;
+    right: 10.71%;
+    top: 21.43%;
+    bottom: 71.43%;
+    background: #FFFFFF;
+}
+
+.line2 {
+    position: absolute;
+    left: 10.71%;
+    right: 10.71%;
+    top: 46.43%;
+    bottom: 46.43%;
+    background: #FFFFFF;
+}
+
+.line3 {
+    position: absolute;
+    left: 10.71%;
+    right: 10.71%;
+    top: 71.43%;
+    bottom: 21.43%;
+    background: #FFFFFF;
+}
+
+/*Style the logo as a whole section*/
+.logo {
+    position: absolute;
+    width: 282px;
+    height: 33px;
+    left: 128px;
+    top: 24px;
+}
+
+/*Set position of the group of vectors*/
+.group {
+position: absolute;
+left: 0.15%;
+right: 0.21%;
+top: 0%;
+bottom: 0%;
+
+}
+
+/*Set the position of the separate vector images*/
+#letter1 {
+    position: absolute;
+    left: 0.15%;
+    right: 91.33%;
+    top: 1.36%;
+    bottom: 0.97%;
+}
+
+#ampersand {
+    position: absolute;
+    left: 8.92%;
+    right: 83.53%;
+    top: 0%;
+    bottom: 0%;
+}
+
+#letter2 {
+    position: absolute;
+    left: 16.44%;
+    right: 77.64%;
+    top: 0.58%;
+    bottom: 0.13%;
+}
+
+#letter3 {
+    position: absolute;
+    left: 24.26%;
+    right: 69.86%;
+    top: 0.52%;
+    bottom: 0.13%;
+}
+
+#letter4 {
+    position: absolute;
+    left: 29.67%;
+    right: 63.28%;
+    top: 1.36%;
+    bottom: 0.97%;
+}
+
+#letter5 {
+    position: absolute;
+    left: 36.49%;
+    right: 56.47%;
+    top: 1.36%;
+    bottom: 0.97%;
+}
+
+#letter6 {
+    position: absolute;
+    left: 42.52%;
+    right: 51.87%;
+    top: 1.36%;
+    bottom: 0.97%;
+}
+
+#letter7 {
+    position: absolute;
+    left: 48.27%;
+    right: 45.81%;
+    top: 0.58%;
+    bottom: 0.13%;
+}
+
+#letter8 {
+    position: absolute;
+    left: 54.79%;
+    right: 39.34%;
+    top: 1.36%;
+    bottom: 0.97%;
+}
+
+#letter9 {
+    position: absolute;
+    left: 61.46%;
+    right: 35.89%;
+    top: 1.36%;
+    bottom: 0.97%;
+}
+
+#letter10 {
+    position: absolute;
+    left: 66.02%;
+    right: 27.88%;
+    top: 0.65%;
+    bottom: 0.07%;
+}
+
+#letter11 {
+    position: absolute;
+    left: 72.84%;
+    right: 21.09%;
+    top: 1.36%;
+    bottom: 0.97%;
+}
+
+#letter12 {
+    position: absolute;
+    left: 79.4%;
+    right: 14.15%;
+    top: 0.52%;
+    bottom: 0.19%;
+}
+
+#letter13 {
+    position: absolute;
+    left: 86.49%;
+    right: 7.25%;
+    top: 1.36%;
+    bottom: 0.13%;
+}
+
+#letter14 {
+    position: absolute;
+    left: 93.55%;
+    right: 0.21%;
+    top: 1.36%;
+    bottom: 0.97%;
+}
+
+.bg-black {
+    position: absolute;
+    width: 1440px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #272727;
+}
+
+#hero {
+    position: absolute;
+    width: 1440px;
+    height: 320px;
+    left: 0px;
+    top: 81px;
+}
+
+/*Set the background colour and positioning of the hero section*/
+.bg-grey {
+    position: absolute;
+    width: 1440px;
+    height: 320px;
+    left: 0px;
+    top: 81px;
+    background: #F5F5F5;
+}
+
+h1 {
+    position: absolute;
+    width: 584px;
+    height: 99px;
+    left: 128px;
+    top: 140px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 45px;
+    color: #000000;
+}
+
+.bg-grey p {
+    position: absolute;
+    width: 594px;
+    height: 73px;
+    left: 130px;
+    top: 258px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
