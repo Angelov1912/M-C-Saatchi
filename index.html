@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en-GB" dir="ltr">
     <head>
         <title>Developer test landing page</title>
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="../css/styles.css">
-        <!--JavaSript due to be added for functionality of the burger menu-->
+        <script src="../javaScript/script.js" defer></script>
     </head>
     <body>
         <header>
@@ -16,6 +16,7 @@
                         <img src="../Vectorline.png" class="line2" alt="line">
                         <img src="../Vectorline.png" class="line3" alt="line">
                     </div>
+                    <button id="reveal"></button>
                 </div>
                 <div class="logo">
                     <div class="group">
@@ -38,6 +39,14 @@
                     </div>
                 </div>
             </div>
+            <!--Create a navigation bar that will appear when the burger menu is clicked-->
+            <div id="navBar">
+                <ul>
+                    <li>Home</li>
+                    <li>Contact</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
         </header>
         <section id="hero">
             <div class="bg-grey"><!--Wraps the section to style as a whole-->
@@ -47,28 +56,22 @@
         </section>
         <main>
             <h2>Latest News</h2>
-            <!--Images due to be changed with the ones in the given template-->
+            <!--Create the three divs to contain the articles for the main section-->
             <div class="article1">
-                <figure>
-                    <img src="../photo.jpg" alt="article photo" width="380" height="215">
-                    <figcaption>Article 1</figcaption>
-                </figure>
+                <h3>Article 1</h3>
+                <!--Some of the paragraphs don't match the template, i just wrote random words-->
                 <p>Lemon drops harribos lays fish and chips apples banannas mangos pineapple watermellon melon tomatoes cucumbers rubicks cube monitor watch iron man</p>
                 <button class="button1">Read more</button>
             </div>
             <div class="article2">
-                <figure>
-                    <img src="../photo.jpg" alt="article photo" width="380" height="215">
-                    <figcaption>Article 2</figcaption>
-                </figure>
+                <div class="image"></div>
+                <h3>Article 2</h3>
                 <p>Jelly beans caramel tiramisu carrot cake cactus orange juice</p>
                 <button class="button2">Read more</button>
             </div>
             <div class="article3">
-                <figure>
-                    <img src="../photo.jpg" alt="article photo" width="380" height="215">
-                    <figcaption>Article 3</figcaption>
-                </figure>
+                <div class="image"></div>
+                <h3>Article 3</h3>
                 <p>Apple martini whiskey beer gin malibu baylis tequila monitor notebook mouse rubicks cube</p>
                 <button class="button3">Read more</button>
             </div>
@@ -80,7 +83,7 @@
             <button>Join</button>
         </section>
         <footer>
-            <p>Copyright 2021 M&C Saatchi</p>
+            <p>Copyright 2021 <span>&copy;</span>M&C Saatchi</p>
         </footer>
     </body>
 </html>
