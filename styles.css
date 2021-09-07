@@ -3,6 +3,7 @@ body {
     width: 1440px;
     height: 1599px;
     background: #FFFFFF;
+    margin: 0px;
     }
 
 header {
@@ -19,6 +20,8 @@ header {
     height: 40px;
     left: 1270px;
     top: 20px;
+    background-color: #272727;
+    border: none;
 }
 
 /* Style the separate lines of the burger menu*/
@@ -47,6 +50,28 @@ header {
     top: 71.43%;
     bottom: 21.43%;
     background: #FFFFFF;
+}
+
+/*
+Create a clickable button
+and hide it under the burger menu,
+so i can assign a JavaScript function to it
+later.
+*/
+#reveal {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1270px;
+    top: 20px;
+    background-color: #272727;
+    border: none;
+    opacity: 0;
+}
+
+/*Change the cursor to pointer when we hover over the button*/
+#reveal:hover {
+    cursor: pointer;
 }
 
 /*Style the logo as a whole section*/
@@ -198,12 +223,36 @@ bottom: 0%;
     background: #272727;
 }
 
+#navBar {
+    position: absolute;
+    width: 1440px;
+    height: 56px;
+    top: 76px;
+    background-color: #F8EA01;
+    z-index: 2;
+    display: none;
+}
+
+#navBar ul {
+    text-align: center;
+}
+
+#navBar li {
+    /*Add sans-serif in case the font family is not supported*/
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    display: inline;
+    text-align: center;
+    margin: 0 30px;
+}
+
 #hero {
     position: absolute;
     width: 1440px;
     height: 320px;
     left: 0px;
     top: 81px;
+    z-index: 1;
 }
 
 /*Set the background colour and positioning of the hero section*/
@@ -212,7 +261,7 @@ bottom: 0%;
     width: 1440px;
     height: 320px;
     left: 0px;
-    top: 81px;
+    top: 0px;
     background: #F5F5F5;
 }
 
@@ -221,8 +270,9 @@ h1 {
     width: 584px;
     height: 99px;
     left: 128px;
-    top: 140px;
-    font-family: Source Sans Pro;
+    top: 50px;
+    /*Add sans-serif in case the font family is not supported*/
+    font-family: Source Sans Pro, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -235,11 +285,239 @@ h1 {
     width: 594px;
     height: 73px;
     left: 130px;
-    top: 258px;
-    font-family: Poppins;
+    top: 180px;
+    /*Add sans-serif in case the font family is not supported*/
+    font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
     color: #000000;
+}
+
+main {
+    width: 1182px;
+    height: 585px;
+    left: 128px;
+}
+
+h2 {
+    position: absolute;
+    width: 584px;
+    height: 52px;
+    left: 130px;
+    top: 508px;
+    /*Add sans-serif in case the font family is not supported*/
+    font-family: Source Sans Pro, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 45px;
+    /* or 112% */
+    color: #000000;
+}
+
+.article1 {
+    background-image: url(../article__image.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 380px;
+    height: 490px;
+    left: 128px;
+    top: 603px;
+}
+
+.article1 h3 {
+    position: absolute;
+    width: 379px;
+    height: 52px;
+    top: 200px;
+    text-align: left;
+    /*Add sans-serif in case the font family is not supported*/
+    font-family: Source Sans Pro, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 45px;
+    color: #000000;
+}
+
+.article1 p {
+    position: absolute;
+    width: 354px;
+    height: 127px;
+    text-align: left;
+    top: 300px;
+    /*Add sans-serif in case the font family is not supported*/
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.button1 {
+    position: absolute;
+    width: 214px;
+    height: 40px;
+    top: 450px;
+    background-color: rgb(255, 67, 161);
+    border: none;
+    border-radius: 5px;
+}
+
+.article2 {
+    background-image: url(../article__image1.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 380px;
+    height: 490px;
+    left: 530px;
+    top: 603px;
+}
+
+.article2 h3 {
+    position: absolute;
+    width: 379px;
+    height: 52px;
+    top: 200px;
+    text-align: left;
+    /*Add sans-serif in case the font family is not supported*/
+    font-family: Source Sans Pro, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 45px;
+    color: #000000;
+}
+
+.article2 p {
+    position: absolute;
+    width: 354px;
+    height: 127px;
+    text-align: left;
+    top: 300px;
+    /*Add sans-serif in case the font family is not supported*/
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.button2 {
+    position: absolute;
+    width: 214px;
+    height: 40px;
+    top: 450px;
+    background-color: rgb(255, 67, 161);
+    border: none;
+    border-radius: 5px;
+}
+
+.article3 {
+    background-image: url(../article__image2.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 380px;
+    height: 490px;
+    left: 930px;
+    top: 603px;
+}
+
+.article3 h3 {
+    position: absolute;
+    width: 379px;
+    height: 52px;
+    text-align: left;
+    top: 200px;
+    /*Add sans-serif in case the font family is not supported*/
+    font-family: Source Sans Pro, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 45px;
+    color: #000000;
+}
+
+.article3 p {
+    position: absolute;
+    width: 354px;
+    height: 127px;
+    text-align: left;
+    top: 300px;
+    /*Add sans-serif in case the font family is not supported*/
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.button3 {
+    position: absolute;
+    width: 214px;
+    height: 40px;
+    top: 450px;
+    background-color: rgb(255, 67, 161);
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter {
+    position: absolute;
+    width: 1444px;
+    height: 295px;
+    left: 2px;
+    top: 1208px;
+    background-color: #F5F5F5;
+}
+
+.newsletter input {
+    width: 380px;
+    height: 43px;
+    margin-top: 120px;
+    margin-left: 480px;
+}
+
+.newsletter label {
+    position: absolute;
+    width: 157px;
+    height: 18px;
+    left: 480px;
+    margin-top: 90px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.newsletter button {
+    position: absolute;
+    width: 120px;
+    height: 49px;
+    margin-top: 120px;
+    margin-left: 20px;
+    background-color: rgb(235, 235, 0);
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    position: absolute;
+    width: 1440px;
+    height: 96px;
+    top: 1503px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+
+footer p {
+    margin-top: 40px;
 }
