@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-GB" dir="ltr">
+    <head>
+        <title>Developer test landing page</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/styles.css">
+        <script src="../javaScript/script.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <div class="bg-black"><!--Wrapper to style the whole div-->
+                <div class="nav-menu">
+                    <!--Add the vector images for the burger menu and set classes-->
+                    <div class="burger">
+                        <img src="../Vectorline.png" class="line1" alt="line">
+                        <img src="../Vectorline.png" class="line2" alt="line">
+                        <img src="../Vectorline.png" class="line3" alt="line">
+                    </div>
+                    <button id="reveal"></button>
+                </div>
+                <div class="logo">
+                    <div class="group">
+                        <!--Add the separate vector images that form the logo-->
+                        <img src="../Vectorm.png" id="letter1" alt="letter m">
+                        <img src="../Vectorand.png" id="ampersand" alt="apmersand">
+                        <img src="../Vectorc.png" id="letter2" alt="letter c">
+                        <img src="../Vectors.png" id="letter3" alt="letter s">
+                        <img src="../Vectora.png" id="letter4" alt="letter a">
+                        <img src="../Vectora.png" id="letter5" alt="letter a">
+                        <img src="../Vectort.png" id="letter6" alt="letter t">
+                        <img src="../Vectorc.png" id="letter7" alt="letter c">
+                        <img src="../Vectorh.png" id="letter8" alt="letter h">
+                        <img src="../Vectori.png" id="letter9" alt="letter i">
+                        <img src="../Vectorg.png" id="letter10" alt="letter g">
+                        <img src="../Vectorr.png" id="letter11" alt="letter r">
+                        <img src="../Vectoro.png" id="letter12" alt="letter o">
+                        <img src="../Vectoru.png" id="letter13" alt="letter u">
+                        <img src="../Vectorp.png" id="letter14" alt="letter p">
+                    </div>
+                </div>
+            </div>
+            <!--Create a navigation bar that will appear when the burger menu is clicked-->
+            <div id="navBar">
+                <ul>
+                    <li>Home</li>
+                    <li>Contact</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+        </header>
+        <section id="hero">
+            <div class="bg-grey"><!--Wraps the section to style as a whole-->
+                <h1>We Navigate, Create and Lead Meaningful Change</h1>
+                <p>Tiramisu chupa chups gummies croissant toffee cake bear claw. Jelly beans jelly beans biscuit carrot cake tootsie roll. Cookie chocolate tiramisu bonbon icing shortbread tiramisu powder.</p>
+            </div>
+        </section>
+        <main>
+            <h2>Latest News</h2>
+            <!--Create the three divs to contain the articles for the main section-->
+            <div class="article1">
+                <h3>Article 1</h3>
+                <!--Some of the paragraphs don't match the template, i just wrote random words-->
+                <p>Lemon drops harribos lays fish and chips apples banannas mangos pineapple watermellon melon tomatoes cucumbers rubicks cube monitor watch iron man</p>
+                <button class="button1">Read more</button>
+            </div>
+            <div class="article2">
+                <div class="image"></div>
+                <h3>Article 2</h3>
+                <p>Jelly beans caramel tiramisu carrot cake cactus orange juice</p>
+                <button class="button2">Read more</button>
+            </div>
+            <div class="article3">
+                <div class="image"></div>
+                <h3>Article 3</h3>
+                <p>Apple martini whiskey beer gin malibu baylis tequila monitor notebook mouse rubicks cube</p>
+                <button class="button3">Read more</button>
+            </div>
+        </main>
+        <!--Add the email form section-->
+        <section class="newsletter">
+            <label for="email">Your email address:</label>
+            <input type="email" id="email" name="email">
+            <button>Join</button>
+        </section>
+        <footer>
+            <p>Copyright 2021 <span>&copy;</span>M&C Saatchi</p>
+        </footer>
+    </body>
+</html>

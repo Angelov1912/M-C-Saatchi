@@ -1,0 +1,526 @@
+body {
+    position: relative;
+    width: 1440px;
+    height: 1599px;
+    background: #FFFFFF;
+    margin: 0px;
+    }
+
+header {
+    position: absolute;
+    width: 1440px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+}
+
+.nav-menu .burger {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1270px;
+    top: 20px;
+    background-color: #272727;
+    border: none;
+}
+
+/* Style the separate lines of the burger menu*/
+.line1 {
+    position: absolute;
+    left: 10.71%;
+    right: 10.71%;
+    top: 21.43%;
+    bottom: 71.43%;
+    background: #FFFFFF;
+}
+
+.line2 {
+    position: absolute;
+    left: 10.71%;
+    right: 10.71%;
+    top: 46.43%;
+    bottom: 46.43%;
+    background: #FFFFFF;
+}
+
+.line3 {
+    position: absolute;
+    left: 10.71%;
+    right: 10.71%;
+    top: 71.43%;
+    bottom: 21.43%;
+    background: #FFFFFF;
+}
+
+/*
+Create a clickable button
+and hide it under the burger menu,
+so i can assign a JavaScript function to it
+later.
+*/
+#reveal {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1270px;
+    top: 20px;
+    background-color: #272727;
+    border: none;
+    opacity: 0;
+}
+
+/*Change the cursor to pointer when we hover over the button*/
+#reveal:hover {
+    cursor: pointer;
+}
+
+/*Style the logo as a whole section*/
+.logo {
+    position: absolute;
+    width: 282px;
+    height: 33px;
+    left: 128px;
+    top: 24px;
+}
+
+/*Set position of the group of vectors*/
+.group {
+position: absolute;
+left: 0.15%;
+right: 0.21%;
+top: 0%;
+bottom: 0%;
+
+}
+
+/*Set the position of the separate vector images*/
+#letter1 {
+    position: absolute;
+    left: 0.15%;
+    right: 91.33%;
+    top: 1.36%;
+    bottom: 0.97%;
+}
+
+#ampersand {
+    position: absolute;
+    left: 8.92%;
+    right: 83.53%;
+    top: 0%;
+    bottom: 0%;
+}
+
+#letter2 {
+    position: absolute;
+    left: 16.44%;
+    right: 77.64%;
+    top: 0.58%;
+    bottom: 0.13%;
+}
+
+#letter3 {
+    position: absolute;
+    left: 24.26%;
+    right: 69.86%;
+    top: 0.52%;
+    bottom: 0.13%;
+}
+
+#letter4 {
+    position: absolute;
+    left: 29.67%;
+    right: 63.28%;
+    top: 1.36%;
+    bottom: 0.97%;
+}
+
+#letter5 {
+    position: absolute;
+    left: 36.49%;
+    right: 56.47%;
+    top: 1.36%;
+    bottom: 0.97%;
+}
+
+#letter6 {
+    position: absolute;
+    left: 42.52%;
+    right: 51.87%;
+    top: 1.36%;
+    bottom: 0.97%;
+}
+
+#letter7 {
+    position: absolute;
+    left: 48.27%;
+    right: 45.81%;
+    top: 0.58%;
+    bottom: 0.13%;
+}
+
+#letter8 {
+    position: absolute;
+    left: 54.79%;
+    right: 39.34%;
+    top: 1.36%;
+    bottom: 0.97%;
+}
+
+#letter9 {
+    position: absolute;
+    left: 61.46%;
+    right: 35.89%;
+    top: 1.36%;
+    bottom: 0.97%;
+}
+
+#letter10 {
+    position: absolute;
+    left: 66.02%;
+    right: 27.88%;
+    top: 0.65%;
+    bottom: 0.07%;
+}
+
+#letter11 {
+    position: absolute;
+    left: 72.84%;
+    right: 21.09%;
+    top: 1.36%;
+    bottom: 0.97%;
+}
+
+#letter12 {
+    position: absolute;
+    left: 79.4%;
+    right: 14.15%;
+    top: 0.52%;
+    bottom: 0.19%;
+}
+
+#letter13 {
+    position: absolute;
+    left: 86.49%;
+    right: 7.25%;
+    top: 1.36%;
+    bottom: 0.13%;
+}
+
+#letter14 {
+    position: absolute;
+    left: 93.55%;
+    right: 0.21%;
+    top: 1.36%;
+    bottom: 0.97%;
+}
+
+.bg-black {
+    position: absolute;
+    width: 1440px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #272727;
+}
+
+#navBar {
+    position: absolute;
+    width: 1440px;
+    height: 56px;
+    top: 76px;
+    background-color: #F8EA01;
+    z-index: 2;
+    display: none;
+}
+
+#navBar ul {
+    text-align: center;
+}
+
+#navBar li {
+    /*Add sans-serif in case the font family is not supported*/
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    display: inline;
+    text-align: center;
+    margin: 0 30px;
+}
+
+#hero {
+    position: absolute;
+    width: 1440px;
+    height: 320px;
+    left: 0px;
+    top: 81px;
+    z-index: 1;
+}
+
+/*Set the background colour and positioning of the hero section*/
+.bg-grey {
+    position: absolute;
+    width: 1440px;
+    height: 320px;
+    left: 0px;
+    top: 0px;
+    background: #F5F5F5;
+}
+
+h1 {
+    position: absolute;
+    width: 584px;
+    height: 99px;
+    left: 128px;
+    top: 50px;
+    /*Add sans-serif in case the font family is not supported*/
+    font-family: Source Sans Pro, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 45px;
+    color: #000000;
+}
+
+.bg-grey p {
+    position: absolute;
+    width: 594px;
+    height: 73px;
+    left: 130px;
+    top: 180px;
+    /*Add sans-serif in case the font family is not supported*/
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+main {
+    width: 1182px;
+    height: 585px;
+    left: 128px;
+}
+
+h2 {
+    position: absolute;
+    width: 584px;
+    height: 52px;
+    left: 130px;
+    top: 480px;
+    /*Add sans-serif in case the font family is not supported*/
+    font-family: Source Sans Pro, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 45px;
+    /* or 112% */
+    color: #000000;
+}
+
+.article1 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/867a/06d9/268708da954264e7d2a9b1393a49f3ed?Expires=1632096000&Signature=Ank~EalM6BgFm2kYcB~Qk4BssUi3cewHBpSsI5pDKBX7WM-Y7rBnE~p0Sns5qxHDrFO78alwmohQaelkLkFXiZqWrp6XzQM7ynRvns5vMQNmH3PutYrpiBJLcu~JR4NdEAyzVJER4ckIkZxgcx5hBjvOaJaIKWwJ2sjIajuU3Pvj7fWRllVJfLxDOaNmuZf65iBNVKqYWfT5-yevNEsV4oGR-zDNJl2ISndwW0P7fImO9z-h-dG5NITWT3LcwSzzYK4P6O3xB8hqp7NW7fMvu1TGp6TV0D2f5YmgCkw18PoqVxVW3-ffm5I6xXD~1M-g89hEAzxKYSHG1MlAK72FSA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-repeat: no-repeat;
+    background-size: 380px, 215px;
+    position: absolute;
+    width: 380px;
+    height: 490px;
+    left: 128px;
+    top: 603px;
+}
+
+.article1 h3 {
+    position: absolute;
+    width: 379px;
+    height: 52px;
+    top: 230px;
+    text-align: left;
+    /*Add sans-serif in case the font family is not supported*/
+    font-family: Source Sans Pro, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 45px;
+    color: #000000;
+}
+
+.article1 p {
+    position: absolute;
+    width: 354px;
+    height: 127px;
+    text-align: left;
+    top: 300px;
+    /*Add sans-serif in case the font family is not supported*/
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.button1 {
+    position: absolute;
+    width: 214px;
+    height: 40px;
+    top: 450px;
+    background-color: rgb(255, 67, 161);
+    border: none;
+    border-radius: 5px;
+}
+
+.article2 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/c47d/fdbf/e644d11584eeb78e4739c6e6bea27560?Expires=1632096000&Signature=FWD6oPUt7CPrLv3fHxfkwt4HdLz6QygPzmHc31nAtICoXKKB2qkyweQZ4VTLI08NGK87elpd1TbVdANmBDdntu6rIfnboZALDigfG-kkym1TubzOyHlKaVSO-1czm8~FTIYTwQJSsQiptcXffFZsOcZYIQLYcw6nla1zJPc-LxVVWP8avganzAJ0OjzMk-8pHdqoO21~x0z97iZmYSE7jTbGn2d6UG-RUrlm80Jp9CGScwlOu093yHy0M9VWKREsIvWEvNeW2w0Fm3NsE0jRImjhegt5J6nmdgIeoAGj2RYMyOTr-jHiIKE1gusS3HX9LKell5oHcGmYDYwYCydv4A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-repeat: no-repeat;
+    background-size: 380px, 215px;
+    position: absolute;
+    width: 380px;
+    height: 490px;
+    left: 530px;
+    top: 603px;
+}
+
+.article2 h3 {
+    position: absolute;
+    width: 379px;
+    height: 52px;
+    top: 230px;
+    text-align: left;
+    /*Add sans-serif in case the font family is not supported*/
+    font-family: Source Sans Pro, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 45px;
+    color: #000000;
+}
+
+.article2 p {
+    position: absolute;
+    width: 354px;
+    height: 127px;
+    text-align: left;
+    top: 300px;
+    /*Add sans-serif in case the font family is not supported*/
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.button2 {
+    position: absolute;
+    width: 214px;
+    height: 40px;
+    top: 450px;
+    background-color: rgb(255, 67, 161);
+    border: none;
+    border-radius: 5px;
+}
+
+.article3 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/8e30/84c4/1f54b636dc6df8bbfd8a2fc917ee358c?Expires=1632096000&Signature=IdqZePRy03KBUu8MM5JdGgLm8tQR54KcSVQ7mr0ja8wNe~awzKRG~n5-K7qqFcMOPloD~S0oEGkrZq95WnUIXhlXUgdEDp0rN-FaUXl-dLwdnZ0vGpl7NnZEd31lEWyByoKKeNXhOlHDbHHeddPb~gom2V~AcZn5KRUPq0J7DbmHzN~GnMUqyA6ugyKWa9Nb2TVD4KTmhUgom-wkEyBvn4C2PwGCEBOYdgdzQhtgwvGK6viH43GhVxgbOATz8lS-CjPwlq-w0UgxFDF5HTBmNEFY-pndr9qK9kFS-VfQkjQ~ox2BjkiJ5Ok2aL55ZvqLcglWFQjeU01okRXo7nY5hw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-repeat: no-repeat;
+    background-size: 380px, 215px;
+    position: absolute;
+    width: 380px;
+    height: 490px;
+    left: 930px;
+    top: 603px;
+}
+
+.article3 h3 {
+    position: absolute;
+    width: 379px;
+    height: 52px;
+    text-align: left;
+    top: 230px;
+    /*Add sans-serif in case the font family is not supported*/
+    font-family: Source Sans Pro, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 45px;
+    color: #000000;
+}
+
+.article3 p {
+    position: absolute;
+    width: 354px;
+    height: 127px;
+    text-align: left;
+    top: 300px;
+    /*Add sans-serif in case the font family is not supported*/
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.button3 {
+    position: absolute;
+    width: 214px;
+    height: 40px;
+    top: 450px;
+    background-color: rgb(255, 67, 161);
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter {
+    position: absolute;
+    width: 1444px;
+    height: 295px;
+    left: 2px;
+    top: 1208px;
+    background-color: #F5F5F5;
+}
+
+.newsletter input {
+    width: 380px;
+    height: 43px;
+    margin-top: 120px;
+    margin-left: 480px;
+}
+
+.newsletter label {
+    position: absolute;
+    width: 157px;
+    height: 18px;
+    left: 480px;
+    margin-top: 90px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.newsletter button {
+    position: absolute;
+    width: 120px;
+    height: 49px;
+    margin-top: 120px;
+    margin-left: 20px;
+    background-color: rgb(235, 235, 0);
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    position: absolute;
+    width: 1440px;
+    height: 96px;
+    top: 1503px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+
+footer p {
+    margin-top: 40px;
+}
