@@ -3,7 +3,9 @@ body {
     width: 1440px;
     height: 1599px;
     background: #FFFFFF;
-    margin: 0px;
+    /* Code tested on screen wider than 1440px. The following will center the page in the middle */
+    display: flex;
+    margin: auto;
     }
 
 header {
@@ -84,13 +86,12 @@ later.
 }
 
 /*Set position of the group of vectors*/
-.group {
-position: absolute;
-left: 0.15%;
-right: 0.21%;
-top: 0%;
-bottom: 0%;
-
+    .group {
+    position: absolute;
+    left: 0.15%;
+    right: 0.21%;
+    top: 0%;
+    bottom: 0%;
 }
 
 /*Set the position of the separate vector images*/
@@ -318,7 +319,7 @@ h2 {
 }
 
 .article1 {
-    background-image: url(https://s3-alpha-sig.figma.com/img/867a/06d9/268708da954264e7d2a9b1393a49f3ed?Expires=1632096000&Signature=Ank~EalM6BgFm2kYcB~Qk4BssUi3cewHBpSsI5pDKBX7WM-Y7rBnE~p0Sns5qxHDrFO78alwmohQaelkLkFXiZqWrp6XzQM7ynRvns5vMQNmH3PutYrpiBJLcu~JR4NdEAyzVJER4ckIkZxgcx5hBjvOaJaIKWwJ2sjIajuU3Pvj7fWRllVJfLxDOaNmuZf65iBNVKqYWfT5-yevNEsV4oGR-zDNJl2ISndwW0P7fImO9z-h-dG5NITWT3LcwSzzYK4P6O3xB8hqp7NW7fMvu1TGp6TV0D2f5YmgCkw18PoqVxVW3-ffm5I6xXD~1M-g89hEAzxKYSHG1MlAK72FSA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-image: url(../article__image.png);
     background-repeat: no-repeat;
     background-size: 380px, 215px;
     position: absolute;
@@ -369,7 +370,7 @@ h2 {
 }
 
 .article2 {
-    background-image: url(https://s3-alpha-sig.figma.com/img/c47d/fdbf/e644d11584eeb78e4739c6e6bea27560?Expires=1632096000&Signature=FWD6oPUt7CPrLv3fHxfkwt4HdLz6QygPzmHc31nAtICoXKKB2qkyweQZ4VTLI08NGK87elpd1TbVdANmBDdntu6rIfnboZALDigfG-kkym1TubzOyHlKaVSO-1czm8~FTIYTwQJSsQiptcXffFZsOcZYIQLYcw6nla1zJPc-LxVVWP8avganzAJ0OjzMk-8pHdqoO21~x0z97iZmYSE7jTbGn2d6UG-RUrlm80Jp9CGScwlOu093yHy0M9VWKREsIvWEvNeW2w0Fm3NsE0jRImjhegt5J6nmdgIeoAGj2RYMyOTr-jHiIKE1gusS3HX9LKell5oHcGmYDYwYCydv4A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-image: url(../article__image1.png);
     background-repeat: no-repeat;
     background-size: 380px, 215px;
     position: absolute;
@@ -420,7 +421,7 @@ h2 {
 }
 
 .article3 {
-    background-image: url(https://s3-alpha-sig.figma.com/img/8e30/84c4/1f54b636dc6df8bbfd8a2fc917ee358c?Expires=1632096000&Signature=IdqZePRy03KBUu8MM5JdGgLm8tQR54KcSVQ7mr0ja8wNe~awzKRG~n5-K7qqFcMOPloD~S0oEGkrZq95WnUIXhlXUgdEDp0rN-FaUXl-dLwdnZ0vGpl7NnZEd31lEWyByoKKeNXhOlHDbHHeddPb~gom2V~AcZn5KRUPq0J7DbmHzN~GnMUqyA6ugyKWa9Nb2TVD4KTmhUgom-wkEyBvn4C2PwGCEBOYdgdzQhtgwvGK6viH43GhVxgbOATz8lS-CjPwlq-w0UgxFDF5HTBmNEFY-pndr9qK9kFS-VfQkjQ~ox2BjkiJ5Ok2aL55ZvqLcglWFQjeU01okRXo7nY5hw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-image: url(../article__image1.png);
     background-repeat: no-repeat;
     background-size: 380px, 215px;
     position: absolute;
