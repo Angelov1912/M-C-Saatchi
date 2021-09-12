@@ -247,6 +247,17 @@ later.
     margin: 0 30px;
 }
 
+/* Remove the default styles from the buttons */
+button {
+    text-decoration: none;
+    background: none;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
 #hero {
     position: absolute;
     width: 1440px;
